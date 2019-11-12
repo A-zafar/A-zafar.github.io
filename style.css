@@ -1,0 +1,120 @@
+
+html{
+	scroll-behavior: smooth
+}
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.navbar-brand{
+	font-size: 30px;
+	margin-left: 10px;
+}
+#cover-img{
+	width: 100%;
+	height: 100vh;
+	background-image: url("img/cover-img.jpg"); 
+	background-size: cover;
+}	
+
+.inner img{
+	width: 180px;
+	height: 180px;
+}
+.inner{
+	position: relative;
+	top: 20%;
+}
+
+.icon-color{
+	transition: all 0.5s;
+}
+.icon-color:hover{
+	color: #24478f;
+	font-size: 55px;
+}
+.arrow a:hover{
+	font-size: 15px;
+	color: black;
+
+
+}
+.arrow a{
+	color: #808080;
+	transition: 0.5s;
+}
+.arrow{
+	position: absolute;
+	bottom: 0; 
+	left: 48%;
+}
+
+hr{
+	background-color: black;
+}
+
+#about-text{
+	line-height: 1.5;
+}
+
+.card-border button{
+	border: 1px solid black;
+	font-weight: bolder;
+	cursor: auto;
+}
+
+.education-card .card-header{
+	height: 160px;
+	background-color: #15cce8;
+}
+.education-card{
+	width: 60%;
+	height: 
+}
+.project .card-body{
+	height: 250px
+}
+.project p{
+	line-height: 1.5;
+	font-size: 18px;
+}
+.project img{
+	border-bottom: 8px solid SlateBlue;
+	width: 400px;
+	height: 250px;
+	transition: all 2s;
+}
+.project .inner{
+	overflow: hidden;
+}
+.project img:hover{
+	transform: scale(1.2);
+}
+
+#in-certi{
+	overflow: hidden;	
+}
+
+#in-certi img{
+	transition: all 2s;
+	height: 250px
+}
+.certi img:hover{
+	transform: scale(1.2);
+}
+footer{
+	width: 100%;
+	height: 80px;
+	position: relative;
+	bottom: 0px;
+	color: white;
+	padding-top: 17px;
+	background-color: black;
+}
+#parleximg1{
+	background-image: url("img/parallex-2.jpg");
+	width: 100%;
+	height: 600px;
+	background-size: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
